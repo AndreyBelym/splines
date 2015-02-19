@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+ <QHelpCollectionProject version="1.0">
+     <assistant>
+		 <enableFilterFunctionality>false</enableFilterFunctionality>
+		 <startPage>qthelp://mycompany.com.myapplication/doc/index.htm</startPage>
+	 </assistant>
+	 <docFiles>
+     <generate>
+         <file>
+             <input>NumMat.qhp</input>
+             <output>NumMat.qch</output>
+         </file>
+     </generate>
+     <register>
+         <file>NumMat.qch</file>
+     </register>
+	</docFiles>
+ </QHelpCollectionProject>

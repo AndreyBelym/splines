@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+ <QtHelpProject version="1.0">
+     <namespace>mycompany.com.myapplication</namespace>
+     <virtualFolder>doc</virtualFolder>
+     <filterSection>
+         <toc>
+             <section title="Добро пожаловать!" ref="./index.htm">
+				<section title="Теоретические основы" ref="theory.htm"/>
+				<section title="Использование программы" ref="usage.htm">
+					<section title="Меню программы" ref="menu.htm"/>
+					<section title="Панель инструментов" ref="toolbar.htm"/>
+					<section title="Прикрепляемые модули" ref="docks.htm"/>
+					<section title="График" ref="plot.htm"/>
+				</section>
+			 </section>
+         </toc>
+         <files>
+             <file>index.htm</file>
+			 <file>index_files/*</file>
+			 <file>usage.htm</file>
+			 <file>usage_files/*</file>
+			 <file>theory.htm</file>
+			 <file>theory_files/*</file>
+			 <file>menu.htm</file>
+			 <file>menu_files/*</file>
+			 <file>toolbar.htm</file>
+			 <file>toolbar_files/*</file>
+			 <file>docks.htm</file>
+			 <file>docks_files/*</file>
+			 <file>plot.htm</file>
+			 <file>plot_files/*</file>
+         </files>
+     </filterSection>
+ </QtHelpProject>
